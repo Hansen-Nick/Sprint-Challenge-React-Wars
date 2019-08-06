@@ -16,10 +16,8 @@ const People = () => {
             .catch( err => console.log(err))
         }, []);
 
-        console.log(starWarsPeople)
-
     return (
-            starWarsPeople.map( (person, index) => <PersonCard key={index} name={person.name} homeWorld={person.homeworld} gender={person.gender} birthday={person.birth_year}/>)
+            starWarsPeople.map( (person, index) => <PersonCard key={index} name={person.name} homeWorld={person.homeworld} films={person.films} birthday={person.birth_year}/>)
     )
     }
 
