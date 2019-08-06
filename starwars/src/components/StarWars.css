@@ -1,0 +1,6 @@
+div.ui.black.centered.card {
+    padding-top: 5px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
